@@ -5,7 +5,7 @@ body {
   font-family: 'Roboto Slab', serif;
   font-weight: 300;
   color: #111;
-  background: #edeff0;
+  background: #edeff0 url('svgs/background.svg') center center repeat;
 }
 
 #container {
@@ -30,6 +30,11 @@ a {
 
 a:hover {
   color: #111;
+}
+
+nav ul {
+  margin: 0;
+  padding: 0;
 }
 
 header {
@@ -59,4 +64,27 @@ footer {
   margin-top: 100px;
   padding-bottom: 30px;
   color: #ba8058;
+}
+
+.icon-heart,
+.icon-location,
+.icon-contact {
+  padding-left: 2em;
+}
+
+.icon-heart:before {
+  content: '';
+  background: url('svgs/nav-heart.svg') center left no-repeat;
+  background-size: 16px 16px;
+  display: block;
+}
+
+.icon-location {
+  background: url('svgs/nav-location.svg') center left no-repeat;
+  background-size: 16px 16px;
+}
+
+.icon-contact {
+  background: url('svgs/nav-contact.svg') center left no-repeat;
+  background-size: 16px 16px;
 }
