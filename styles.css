@@ -89,14 +89,26 @@ footer {
   background-size: 16px 16px;
 }
 
+/* .st0 { fill:#BA8058; }
+.st1 { fill:#EAAA7F; }
+.st2 { fill:#F4C6A6; } */
+
 .logo {
   width: 140px;
   height: 120px;
 }
 
-.logo-text {
+.logo-small {
   display: none;
 }
+
+.col {
+  display: inline-block;
+  padding-right: 0.5em;
+  padding-left: 0.5em;
+}
+
+/* .body{fill:#52595f} */
 
 .corgi-sable { color: #b97f5b; }
 .corgi-fawn { color: #e9aa82; }
@@ -104,10 +116,10 @@ footer {
 .corgi-stone { color: #52595e; }
 
 @media (max-width: 425px) {
-  .logo .st1 {
+  .logo-text {
     display: none;
   }
-  .logo-text {
+  .logo-small {
     display: block;
   }
 }
