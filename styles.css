@@ -34,7 +34,7 @@ a:hover {
 
 nav ul {
   margin: 0;
-  padding: 0;
+  padding: 1em 2em;
 }
 
 header {
@@ -66,36 +66,23 @@ footer {
   color: #ba8058;
 }
 
-.icon-heart,
-.icon-location,
-.icon-contact {
-  padding-left: 2em;
+.nav-icon {
+  transform: scale(.5);
+  vertical-align: middle;
 }
-
-.icon-heart:before {
-  content: '';
-  background: url('svgs/nav-heart.svg') center left no-repeat;
-  background-size: 16px 16px;
-  display: block;
-}
-
-.icon-location {
-  background: url('svgs/nav-location.svg') center left no-repeat;
-  background-size: 16px 16px;
-}
-
-.icon-contact {
-  background: url('svgs/nav-contact.svg') center left no-repeat;
-  background-size: 16px 16px;
-}
-
-/* .st0 { fill:#BA8058; }
-.st1 { fill:#EAAA7F; }
-.st2 { fill:#F4C6A6; } */
 
 .logo {
   width: 140px;
   height: 120px;
+}
+
+.logo-icon {
+  transition: transform .4s ease-out;
+  transform-origin: 50% 50%;
+}
+
+.logo:hover .logo-icon {
+  transform: rotate(35deg) scale(1.1);
 }
 
 .logo-small {
@@ -107,8 +94,6 @@ footer {
   padding-right: 0.5em;
   padding-left: 0.5em;
 }
-
-/* .body{fill:#52595f} */
 
 .corgi-sable { color: #b97f5b; }
 .corgi-fawn { color: #e9aa82; }
