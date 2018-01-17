@@ -82,17 +82,23 @@ footer {
 }
 
 .logo:hover .logo-icon {
-  transform: rotate(35deg) scale(1.1);
+  transform: rotate(35deg) scale(0.9);
 }
 
 .logo-small {
   display: none;
 }
 
-.col {
+.corgi {
   display: inline-block;
   padding-right: 0.5em;
   padding-left: 0.5em;
+  color: #ba8058;
+}
+
+.corgi p {
+  margin-top: 0;
+  margin-left: 25%;
 }
 
 .corgi-sable { color: #b97f5b; }
