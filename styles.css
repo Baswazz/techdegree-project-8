@@ -101,6 +101,10 @@ header nav ul li a:hover .nav-icon {
   height: 120px;
 }
 
+.logo-text {
+  display: none;
+}
+
 .logo-icon {
   /* transform-origin: 50% 50%; */
   transform-origin: 70.4px 69.9px;
@@ -112,7 +116,7 @@ header nav ul li a:hover .nav-icon {
 }
 
 .logo-small {
-  display: none;
+  display: block;
 }
 
 .corgi {
@@ -132,11 +136,11 @@ header nav ul li a:hover .nav-icon {
 .corgi-red { color: #834b29; }
 .corgi-stone { color: #52595e; }
 
-@media (max-width: 425px) {
+@media (min-width: 425px) {
   .logo-text {
-    display: none;
+    display: block;
   }
   .logo-small {
-    display: block;
+    display: none;
   }
 }
